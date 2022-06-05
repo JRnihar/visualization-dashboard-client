@@ -6,7 +6,7 @@ const LikeHood = () => {
     const [lists, setList] = useData()
     console.log(lists);
     return (
-        <div>
+        <div className='mt-8'>
             <AreaChart
                 width={5000}
                 height={400}

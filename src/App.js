@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Chart from './Components/Dashboard.js/Chart';
+import EndYear from './Components/Dashboard.js/EndYear';
 import Intensity from './Components/Dashboard.js/Intensity';
 import LikeHood from './Components/Dashboard.js/LikeHood';
 import Source from './Components/Dashboard.js/Source';
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Intensity></Intensity>}></Route>
           <Route path='likeHood' element={<LikeHood></LikeHood>}></Route>
           <Route path='source' element={<Source></Source>}></Route>
+          <Route path='endYear' element={<EndYear></EndYear>}></Route>
      </Route>
      </Routes>
     </div>
